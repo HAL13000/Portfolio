@@ -1,0 +1,111 @@
+/* general */
+body {
+    color: var(--color-main)	;
+    background-color: var(--color-background);
+    font-family: 'Noto Serif', serif;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+h1,h2 {
+    /* font-family: 'idealist', 'Noto-serif', serif; */
+    font-family:  'Noto-serif', serif;
+}
+/* Index.js */
+.index_wrapper {
+    /* background-color: navy; */
+    padding: 0;
+    margin: 0;
+    padding: 30px;
+    height: 100dvh;
+    box-sizing: border-box;
+}
+.index_container {
+    /* background-color: blue; */
+    padding: 0;
+}
+.index_background{
+    padding: 0;
+    margin: 0;
+}
+.index_mask{
+    padding: 0;
+    margin: 0;
+}
+header.index{
+    /* background-color: blue; */
+    padding: 10px 30px;
+    padding-top: 30%;
+}
+    header.index h1 {
+        padding: 0;
+        margin: 0;
+    }
+    header.index h3 {
+        padding: 0;
+        margin: 0;
+        font-style: light;
+    }
+    header.index p {
+        padding: 10px 0;
+        margin: 0;
+        width: 350px;
+    }
+main.index_content {
+    /* background-color: turquoise; */
+    padding: 10px 30px;
+    right: 0;
+}
+    ul.indexList {
+        /* background-color: lemonchiffon; */
+        margin: 0; 
+        padding: 0;
+    }
+        ul.indexList li{
+            /* background-color: lightsalmon; */
+            list-style: none;
+            padding-bottom: 5px;
+         }
+
+
+@media (min-width:800px){
+    .index_wrapper{
+        /* flex-direction: row; */
+        display: flex;
+    }
+    .index_container {
+        flex-direction: row;
+        display: flex;
+    }
+    header.index {
+        /* background-color: red; */
+        margin: 0;
+        padding-top: 0;
+        bottom: 30px;
+        position: fixed;
+        padding: 50px;
+    }
+    main.index_content {
+        /* background-color: orange; */
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        bottom: 200px;
+        padding-right: 30px;
+    }
+    .index_content ul {
+        padding-right: 30px;
+    }
+    .index_content ul button{
+        font-size: 81px;
+        margin-right: 30px;
+    }
+    
+}
+@media (min-width:1000px){
+    .index_content ul button{
+        font-size: 100px;
+    }
+}

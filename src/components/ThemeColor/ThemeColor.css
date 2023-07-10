@@ -1,0 +1,65 @@
+:root,
+:root[theme='LIGHT']{
+	--color-main:#967969;
+    --color-background: #ede7dc;
+    --color-sub: #ccafa5;
+}
+:root[theme='DARK']{
+	--color-main: #ede7dc;
+    --color-background: #967969;
+    --color-sub: #ccafa5;
+    /* --color-main:#dcd2cc;
+    --color-background:#647c90;
+    --color-sub: #bdc3cb; */
+}
+
+* {
+	transition: all .2s ease-in-out;
+  }
+
+.themeColor {
+	background-color: var(--color-background);
+	color: var(--color-main);
+}
+.themeColor_sub {
+	color:var(--color-sub)
+}
+
+.themeColor p{
+    padding: 0;
+    margin: 0;
+}
+.themeColorBtn_container {
+	/* background: black; */
+	flex-direction: row;
+	position: fixed;
+	text-align: center;
+	align-items: start;
+	justify-content: space-between;
+	display: flex;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	rotate: 90deg;
+	top: 80px;
+	right: -35px;
+	width: 100px;
+	height: 13px;
+	z-index: 4;
+}
+	.themeColorBtn {
+		justify-content: space-between;
+		text-align: center;
+		display: flex;
+		padding-left: 10px;
+	}
+	.light .themeColor_box{
+		color: #967969;
+	}
+	.dark .themeColor_box{
+		color: #ede7dc;
+	}
+	.themeColorBtn:hover{
+		transition: .3s;
+    	opacity: .5;
+	}

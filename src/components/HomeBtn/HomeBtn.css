@@ -1,0 +1,19 @@
+div .homeBtn {
+    z-index: 4;
+    position: fixed;
+}
+.homeBtn p {
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    width: 50px;
+}
+.homeBtn p:hover {
+    transition: .3s;
+    opacity: .5;
+    cursor: pointer;
+}
