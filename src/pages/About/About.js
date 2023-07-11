@@ -117,7 +117,7 @@ const About = () => {
               This is of my favorite words from a Japanese Artist.
               <br />
               His word reminds me that everything I do is connected to something
-              various to my life. When I create something, I actually create on
+              various to my life. When I create something, I actually create one
               more piece of myself.
             </p>
             <CapitalizedBtn
