@@ -17,7 +17,7 @@ const About = () => {
 
   const handleMyCV = () => {
     window.location.href =
-      "https://docs.google.com/document/d/1WCKQE6_CA3M-OBOrO6oX0SQbWZDtXX30iv49zFLYgfw/edit?usp=sharing";
+      "https://drive.google.com/file/d/1d-cy9aH_hv2Jv0SIFfP55tuNsE4_wE23/view?usp=drive_link";
   };
   return (
     <div className="about_wrapper">
