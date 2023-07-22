@@ -16,9 +16,12 @@ const About = () => {
   };
 
   const handleMyCV = () => {
-    window.location.href =
-      "https://drive.google.com/file/d/166k0WPBccMFXEECoIT7oPo1dEDikYo43/view?usp=drive_link";
+    window.open(
+      "https://drive.google.com/file/d/166k0WPBccMFXEECoIT7oPo1dEDikYo43/view?usp=drive_link",
+      "_blank"
+    );
   };
+
   return (
     <div className="about_wrapper">
       <Mask />
