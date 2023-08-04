@@ -1,13 +1,14 @@
 import React from "react";
-import "./About.css";
+import "./About.scss";
 import HomeBtn from "../../components/HomeBtn/HomeBtn";
 import Frame from "../../components/Frame/Frame";
 import Button from "../../components/Button/Button";
 import { useNavigate } from "react-router-dom";
 import CapitalizedBtn from "../../components/CapitalizedBtn/CapitalizedBtn";
 import Mask from "../../components/Mask/Mask";
-import ThemeColor from "../../components/ThemeColor/ThemeColor";
 import me01 from "../../images/png/me01.png";
+import ThemeBtn from "../../components/ThemeColor/ThemeBtn";
+
 const About = () => {
   const navigate = useNavigate();
 
@@ -23,119 +24,138 @@ const About = () => {
   };
 
   return (
-    <div className="about_wrapper">
+    <div className="about">
       <Mask />
       <Frame />
       <HomeBtn />
-      <ThemeColor />
-      <div className="about_container">
-        <div className="about_content">
-          <div className="about_header">
-            <h1>About</h1>
-            <img className="aboutImg" src={me01} alt="" />
-          </div>
-          <p className="about_description">
-            <span className="quote">
-              Hello, I'm Haruka.
-              <br />
-            </span>
-            <br />
+      <ThemeBtn />
+      <div className="container">
+        <div className="header">
+          <h1>About</h1>
+          <img className="aboutImg" src={me01} alt="" />
+        </div>
+        <div className="content">
+          <span className="quote">Hello,I'm Haruka.</span>
+          <p className="description">
             As there is a word “book-worm” for those who like to read, I would
             like to call myself “creative-worm”. I have a deep love for all
             kinds of creative activities and find joy in transforming ideas into
             tangible works. Whether it's cooking, painting, writing, crafting,
             or coding, each serves as a precious tool of expression for me.
-            <br />
-            <br />
           </p>
-          <p className="about_description">
-            <span className="header">
-              Why Coding?
-              <br />
-              <br />
-            </span>
+          <br />
+          <br />
+        </div>
+        <div className="content">
+          <span className="quote">Why Coding?</span>
+          <p className="description">
             Coding is enjoyable because it's like putting a brush on a blank
             canvas. We start by typing a single character into a blank file, and
             the endless possibilities unfold. With each character I type, it
             comes to life on the screen as a functioning website that people can
             browse and use. The entire process fills me with excitement.
-            <br />
-            <br />
+          </p>
+          <br />
+          <p className="description">
             I believe there's nothing that can't be created through coding. I
             want to dive into that realm of infinite possibilities, continuously
             learn, experiment, and share new experiences with both myself and
             the users of the services through coding.
-            <br />
-            <br />
           </p>
-          <ul className="about_description">
-            <span className="header">
-              Experience
-              <br />
-              <br />
-            </span>
-            <li>
-              <p>2018-2019</p>
+          <br />
+          <br />
+        </div>
+        <div className="content">
+          <span className="quote">Experience</span>
+          <li>
+            <p className="date">2018-2019</p>
+            <p className="log">
               Internship as a web designer at an IT company in Tokyo.
-            </li>
-            <li>
-              <p>2022-</p>
-              Alongside another job, keep learning and creating by coding.
-            </li>
-            <br />
-          </ul>
-          <div className="about_description">
-            <span className="header">
-              Skills
-              <br />
-              <br />
-            </span>
-            <div className="about_border_container">
-              <div className="about_border">React.js</div>
-              <div className="about_border">Node.js</div>
-              <div className="about_border">MongoDB</div>
-              <div className="about_border">Firebase</div>
-              <div className="about_border">HTML/CSS</div>
-              <div className="about_border">JavaScript</div>
-              <div className="about_border">Github</div>
-              <div className="about_border">ChatGPT</div>
-              <div className="about_border">Adobe PhotoShop</div>
-              <div className="about_border">Adobe Illustrator</div>
-            </div>
-            <br />
-            <br />
-            <Button text="My CV" onClick={handleMyCV} />
-            <br />
-            <br />
-          </div>
-          <div className="about_contactMe">
-            <br />
-            <span className="quote">
-              " Think of you as creating yourself. "
-              <p>-Taro Okamoto(1911-1996)</p>
-            </span>
-            <br />
-            <br />
-            <p>
-              This is of my favorite words from a Japanese Artist.
-              <br />
-              His word reminds me that everything I do is connected to something
-              various to my life. When I create something, I actually create one
-              more piece of myself.
             </p>
-            <CapitalizedBtn
-              onClick={handleNavigateToContact}
-              text="Contact Me"
-            />
-            <br />
-            <br />
-            <br />
-            <br />
+          </li>
+          <li>
+            <p className="date">2021-</p>
+            <p className="log">
+              Alongside another job, keep learning and creating by coding.
+            </p>
+          </li>
+          <li>
+            <p className="date">2022 Apr-May</p>
+            <p className="log">
+              Project: MeowChatting - Landing Page for Meow Chatting service.
+            </p>
+            <p className="log">HTML/CSS</p>
+          </li>
+          <li>
+            <p className="date">2023 Feb-Mar</p>
+            <p className="log">
+              Project: Travives - A website for rental van/camping car service.
+            </p>
+            <p className="log">HTML/CSS/JavaScript</p>
+          </li>
+          <li>
+            <p className="date">2023 Apr-Jun</p>
+            <p className="log">Project: Chattie - Chatting Web Application</p>
+            <p className="log">React/Firebase/HTML/CSS</p>
+          </li>
+          <br />
+          <br />
+        </div>
+        <div className="content">
+          <span className="quote">Skills</span>
+          <br />
+          <br />
+          <div className="skills">
+            <div className="skill">React.js</div>
+            <div className="skill">Node.js</div>
+            <div className="skill">Sass</div>
+            <div className="skill">JavaScript</div>
+            <div className="skill">TypeScript</div>
+            <div className="skill">HTML/CSS</div>
+            <div className="skill">Github</div>
+            <div className="skill">Firebase</div>
+            <div className="skill">MongoDB</div>
+            <div className="skill">Adobe PhotoShop/Illustrator</div>
+            <div className="skill">ChatGPT</div>
           </div>
+          <br />
+          <br />
+        </div>
+        <div className="content">
+          <Button text="My CV" onClick={handleMyCV} />
+          <br />
+          <br />
+          <span className="quote">
+            " Think of you as creating yourself. "
+            <p className="name">-Taro Okamoto(1911-1996)</p>
+          </span>
+          <br />
+          <br />
+          <p className="description">
+            This is of my favorite words from a Japanese Artist.
+            <br />
+            His word reminds me that everything I do is connected to something
+            various to my life. When I create something, I actually create one
+            more piece of myself.
+          </p>
+          <br />
+          <br />
+          <CapitalizedBtn onClick={handleNavigateToContact} text="Contact Me" />
+          <br />
+          <br />
         </div>
       </div>
     </div>
   );
 };
+
+//   /* <div className="content">
+//   <span className="quote"></span>
+//   <p className="description"></p>
+//   <br />
+//   <p className="description"></p>
+//   <br />
+//   <br />
+// </div> */
 
 export default About;

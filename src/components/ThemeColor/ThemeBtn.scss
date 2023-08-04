@@ -1,0 +1,42 @@
+@import "../../styles/variables";
+@import "../../styles/functions";
+@import "../../styles/themes";
+
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+.themeColorBtn_container {
+  flex-direction: row;
+  position: fixed;
+  text-align: center;
+  align-items: start;
+  justify-content: space-between;
+  display: flex;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  rotate: 90deg;
+  top: 80px;
+  right: -35px;
+  width: 100px;
+  height: 13px;
+  z-index: 4;
+}
+.themeColorBtn {
+  @include spaceBetween;
+  padding-left: 10px;
+  transition: 0.3s;
+  color: var(--mainColor);
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.light .box {
+  color: $brown;
+}
+.dark .box {
+  color: $ivory;
+}

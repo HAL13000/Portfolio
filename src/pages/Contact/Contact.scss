@@ -1,0 +1,76 @@
+@import "../../styles/media";
+@import "../../styles/themes";
+@import "../../styles/functions";
+
+.contact {
+  padding: 30px;
+  margin: 0;
+  height: 100dvh;
+  box-sizing: border-box;
+  position: relative;
+  color: var(--mainColor);
+  background-color: var(--backgroundColor);
+
+  .content {
+    padding: 0;
+    margin: 0;
+    padding: 0 30px;
+
+    img {
+      /* background-color: blue; */
+      width: 100px;
+      height: auto;
+      position: fixed;
+      right: 30px;
+      padding: 30px;
+      @include sp {
+        width: 150px;
+      }
+      @include tab {
+        width: 200px;
+        bottom: 30px;
+      }
+      @include pc {
+        width: 250px;
+      }
+    }
+    .header {
+      padding: 30px 0;
+      h1 {
+        font-size: 20px;
+      }
+    }
+    .description {
+      .header {
+        font-size: 54px;
+        @include pc {
+          font-size: 72px;
+        }
+      }
+      //   p {
+      //   }
+      .info {
+        // .quote {
+        // }
+        p {
+          padding: 0;
+          margin: 0;
+          border-bottom: 1px solid;
+          width: fit-content;
+        }
+        a {
+          /* background-color: #fff; */
+          margin-left: 20px;
+          color: var(--mainColor);
+          transition: 0.2s;
+          &:hover {
+            font-style: italic;
+          }
+        }
+      }
+    }
+    @include pc {
+      padding: 10% 30% 20% 10%;
+    }
+  }
+}

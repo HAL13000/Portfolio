@@ -1,24 +1,24 @@
 import React from "react";
-import "./Contact.css";
+import "./Contact.scss";
 import HomeBtn from "../../components/HomeBtn/HomeBtn";
 import Frame from "../../components/Frame/Frame";
-import ThemeColor from "../../components/ThemeColor/ThemeColor";
 import Mask from "../../components/Mask/Mask";
 import pic002 from "../../images/png/pic002.png";
+import ThemeBtn from "../../components/ThemeColor/ThemeBtn";
 
 const Contact = () => {
   return (
-    <div className="contact_wrapper">
+    <div className="contact">
       <Mask />
       <HomeBtn />
-      <ThemeColor />
-      <div className="contact_container">
+      <ThemeBtn />
+      <div className="container">
         <Frame />
-        <div className="contact_content">
-          <div className="contact_header">
+        <div className="content">
+          <div className="header">
             <h1>Contact</h1>
           </div>
-          <div className="contact_description">
+          <div className="description">
             <span className="header">Hello,</span>
             <br />
             <br />
@@ -29,7 +29,7 @@ const Contact = () => {
               <br />
               <br />
             </p>
-            <div className="contact_info">
+            <div className="info">
               <span className="quote">Email:</span>
               <p>haru.smile.13@gmail.com</p>
               <br />

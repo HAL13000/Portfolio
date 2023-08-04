@@ -4,7 +4,7 @@ body {
     background-color: var(--color-background);
     font-family: 'Noto Serif', serif;
 }
-
+ 
 img {
     width: 100px;
     height: 100px;
@@ -26,14 +26,14 @@ h1,h2 {
     /* background-color: blue; */
     padding: 0;
 }
-.index_background{
+/* .index_background{
     padding: 0;
     margin: 0;
 }
 .index_mask{
     padding: 0;
-    margin: 0;
-}
+    margin: 0; */
+/* } */
 header.index{
     /* background-color: blue; */
     padding: 10px 30px;

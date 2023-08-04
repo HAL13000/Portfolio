@@ -1,4 +1,4 @@
-:root,
+/* :root,
 :root[theme='LIGHT']{
 	--color-main:#967969;
     --color-background: #ede7dc;
@@ -8,29 +8,12 @@
 	--color-main: #ede7dc;
     --color-background: #967969;
     --color-sub: #ccafa5;
-    /* --color-main:#dcd2cc;
-    --color-background:#647c90;
-    --color-sub: #bdc3cb; */
 }
 
 * {
 	transition: all .2s ease-in-out;
   }
-
-.themeColor {
-	background-color: var(--color-background);
-	color: var(--color-main);
-}
-.themeColor_sub {
-	color:var(--color-sub)
-}
-
-.themeColor p{
-    padding: 0;
-    margin: 0;
-}
 .themeColorBtn_container {
-	/* background: black; */
 	flex-direction: row;
 	position: fixed;
 	text-align: center;
@@ -63,3 +46,5 @@
 		transition: .3s;
     	opacity: .5;
 	}
+
+	 */

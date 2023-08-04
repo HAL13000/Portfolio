@@ -1,10 +1,10 @@
 import React from "react";
-import "./Index.css";
+import "./Index.scss";
 // import pic001 from "../../images/png/pic001.png";
 import { useNavigate } from "react-router-dom";
 import CapitalizedBtn from "../../components/CapitalizedBtn/CapitalizedBtn";
 import Frame from "../../components/Frame/Frame";
-import ThemeColor from "../../components/ThemeColor/ThemeColor";
+import ThemeBtn from "../../components/ThemeColor/ThemeBtn";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -19,12 +19,12 @@ const Index = () => {
     navigate("/contact");
   };
   return (
-    <div className="index_wrapper">
+    <div className="index">
       {/* <div className="index_background">three.js image</div> */}
       {/* <div className="index_mask"></div> */}
       <Frame />
-      <ThemeColor />
-      <div className="index_container">
+      <ThemeBtn />
+      <div className="container">
         <header className="index">
           <h1>Haruka Ishikawa</h1>
           <h3>Front end developer</h3>
@@ -33,25 +33,25 @@ const Index = () => {
             engaging user experiences and bring designs to life.
           </p>
         </header>
-        <main className="index_content">
+        <main className="content">
           <ul className="indexList">
             <li>
               <CapitalizedBtn
-                className="work"
+                className="index_work"
                 text="WORK"
                 onClick={handleAccessToWork}
               />
             </li>
             <li>
               <CapitalizedBtn
-                className="about"
+                className="index_about"
                 text="ABOUT"
                 onClick={handleAccessToAbout}
               />
             </li>
             <li>
               <CapitalizedBtn
-                className="contact"
+                className="index_contact"
                 text="CONTACT"
                 onClick={handleAccessToContact}
               />

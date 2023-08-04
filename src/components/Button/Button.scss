@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+@import "../../styles/themes";
+
+.button {
+  background-color: var(--backgroundColor);
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+  border-radius: 45px;
+  padding: 15px 30px;
+  font-size: 16px;
+  z-index: 3;
+  position: relative;
+  font-family: "Noto-serif", serif;
+  transition: 0.1s;
+  cursor: pointer;
+  &:hover {
+    color: var(--backgroundColor);
+    background-color: var(--mainColor);
+    border: 1px solid var(--backgroundColor);
+  }
+}

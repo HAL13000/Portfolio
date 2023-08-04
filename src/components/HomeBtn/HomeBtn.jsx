@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomeBtn.css";
+import "./HomeBtn.scss";
 import { useNavigate } from "react-router-dom";
 
 function HomeBtn() {

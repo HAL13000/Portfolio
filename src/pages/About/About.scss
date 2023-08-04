@@ -1,0 +1,99 @@
+@import "../../styles/variables";
+@import "../../styles/functions";
+@import "../../styles/themes";
+@import "../../styles/media";
+
+.about {
+  color: var(--mainColor);
+  background-color: var(--backgroundColor);
+  padding: 30px;
+  margin: 0;
+  height: auto;
+  box-sizing: border-box;
+  width: 100hvw;
+
+  .container {
+    margin: 0;
+    padding: 0 5%;
+
+    .header {
+      position: relative;
+      @include spaceBetween;
+      h1 {
+        padding: 20% 10px;
+        font-size: 32px;
+        @include sp {
+          font-size: 56px;
+        }
+        @include tab {
+          font-size: 64px;
+        }
+      }
+      img {
+        height: auto;
+        margin: 5%;
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40%;
+      }
+    }
+    .content {
+      .quote {
+        font-size: 18px;
+        position: relative;
+        .name {
+          font-size: 15px;
+          padding: 0;
+          margin: 0;
+          right: 0;
+          position: absolute;
+        }
+      }
+      .description {
+        width: auto;
+        font-size: 15px;
+        padding: 3% 0 0 0;
+        margin: 0;
+      }
+      li {
+        margin: 10px;
+        padding: 0;
+        list-style: circle;
+        p {
+          padding: 0;
+          margin: 0;
+        }
+        .date {
+          font-style: italic;
+          font-size: 13px;
+        }
+        .log {
+          font-size: 15px;
+        }
+      }
+      .skills {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        .skill {
+          border: 1px solid var(--mainColor);
+          border-radius: 50px;
+          padding: 0 5px;
+          margin: 5px;
+        }
+      }
+    }
+    @include sp {
+      padding: 0 10%;
+    }
+    @include tab {
+      padding: 0 15%;
+    }
+    @include pc {
+      padding: 0 20%;
+    }
+  }
+}

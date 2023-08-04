@@ -1,0 +1,127 @@
+@import "../../styles/functions";
+@import "../../styles/media";
+@import "../../styles/themes";
+
+.quote,
+.header {
+  font-size: 18px;
+}
+.about {
+  padding: 30px;
+  margin: 0;
+  height: 100dvh;
+  box-sizing: border-box;
+  background-color: var(--backgroundColor);
+
+  .container {
+    padding: 0;
+    margin: 0;
+
+    .content {
+      margin: 0;
+      padding: 0 30px;
+
+      .header {
+        @include spaceBetween;
+        h1 {
+          padding: 10% 10px 10px 10px;
+          @include tab {
+            font-size: 64px;
+          }
+        }
+        img {
+          //   margin: 0;
+          height: auto;
+          margin: 5%;
+          display: flex;
+          position: absolute;
+          top: 0;
+          right: 0;
+
+          @include sp {
+            width: 200px;
+          }
+          @include tab {
+            width: 250px;
+          }
+          @include pc {
+            width: 350px;
+          }
+        }
+      }
+      @include sp {
+        width: 600px;
+        padding-left: 10%;
+      }
+      @include tab {
+        padding-left: 15%;
+      }
+    }
+  }
+
+  .description {
+    width: 350px;
+    font-size: 15px;
+    padding: 15% 0 0 0;
+    margin: 0;
+    // background-color: red;
+    @include sp {
+      width: 400px;
+    }
+    @include tab {
+      width: 550px;
+    }
+
+    li {
+      margin: 10px;
+      padding: 0px;
+      list-style: circle;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+      font-style: italic;
+    }
+  }
+
+  .border_container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .border {
+    border: 1px solid var(--color-main);
+    border-radius: 50px;
+    padding: 0 5px;
+    margin: 5px;
+  }
+
+  .contactMe {
+    .quote {
+      position: relative;
+      p {
+        margin: 0;
+        font-style: italic;
+        font-size: 13px;
+        position: absolute;
+        display: flex;
+        right: 0;
+      }
+    }
+    // p {
+    //   width: 350px;
+    // }
+    button {
+      font-size: 25px;
+      padding: 10px 0;
+    }
+  }
+}
+
+@include sp {
+}
+@include tab {
+}
+@include pc {
+}

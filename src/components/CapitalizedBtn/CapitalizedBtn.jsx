@@ -1,5 +1,5 @@
 import React from "react";
-import "./CapitalizedBtn.css";
+import "./CapitalizedBtn.scss";
 
 function CapitalizedBtn(props) {
   return (
