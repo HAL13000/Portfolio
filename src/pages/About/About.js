@@ -96,7 +96,16 @@ const About = () => {
           <li>
             <p className="date">2023 Apr-Jun</p>
             <p className="log">Project: Chattie - Chatting Web Application</p>
-            <p className="log">React/Firebase/HTML/CSS</p>
+            <p className="log">React.js/Firebase/HTML/CSS</p>
+          </li>
+          <li>
+            <p className="date">2023 Sep-</p>
+            <p className="log">
+              Project: Ongoing fullstack note application project
+            </p>
+            <p className="log">
+              Node.js/MongoDB/Express/React.js/JavaScript/Sass
+            </p>
           </li>
           <br />
           <br />
