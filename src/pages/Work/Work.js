@@ -42,7 +42,7 @@ const Work = () => {
               >
                 <CapitalizedBtn className="work1" text="Chattie" />
               </a>
-              <p className="text">React/Firebase</p>
+              <p className="text">React.js/Firebase/JavaScript</p>
             </li>
             <li>
               <a
@@ -52,7 +52,7 @@ const Work = () => {
               >
                 <CapitalizedBtn className="work2" text="Travibes" />
               </a>
-              <p className="text">HTML/CSS/Javascript</p>
+              <p className="text">HTML/CSS/JavaScript</p>
             </li>
             <li>
               <a
@@ -63,6 +63,16 @@ const Work = () => {
                 <CapitalizedBtn className="work3" text="MeowChat" />
               </a>
               <p className="text">HTML/CSS</p>
+            </li>
+            <li>
+              <a
+                href="https://portfolio-nu-three-21.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CapitalizedBtn className="work4" text="Portfolio" />
+              </a>
+              <p className="text">"This website" React.js/JavaScript/Sass</p>
             </li>
           </ul>
         </div>
