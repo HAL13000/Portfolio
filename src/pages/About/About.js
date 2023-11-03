@@ -18,7 +18,7 @@ const About = () => {
 
   const handleMyCV = () => {
     window.open(
-      "https://drive.google.com/file/d/166k0WPBccMFXEECoIT7oPo1dEDikYo43/view?usp=drive_link",
+      "https://drive.google.com/file/d/1aXrD-dR58EjJsiMqZr446YENIjbbdCo-/view?usp=sharing",
       "_blank"
     );
   };
@@ -89,7 +89,7 @@ const About = () => {
           <li>
             <p className="date">2023 Feb-Mar</p>
             <p className="log">
-              Project: Travives - A website for rental van/camping car service.
+              Project: Travibes - A website for rental van/camping car service.
             </p>
             <p className="log">HTML/CSS/JavaScript</p>
           </li>
@@ -99,12 +99,17 @@ const About = () => {
             <p className="log">React.js/Firebase/HTML/CSS</p>
           </li>
           <li>
+            <p className="date">2023 Jul-</p>
+            <p className="log">Project: Make this website as my portfolio</p>
+            <p className="log">React.js/JavaScript/Sass/HTML</p>
+          </li>
+          <li>
             <p className="date">2023 Sep-</p>
             <p className="log">
               Project: Ongoing fullstack note application project
             </p>
             <p className="log">
-              Node.js/MongoDB/Express/React.js/JavaScript/Sass
+              Node.js/MongoDB/Express/React.js/JavaScript/Sass/Redux
             </p>
           </li>
           <br />
