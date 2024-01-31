@@ -78,7 +78,7 @@ const Work = () => {
         </div>
       </div>
       <div className="work_img">
-        <img src={pic001} alt="" />
+        <img src={pic001} alt="" loading="lazy" />
       </div>
     </div>
   );

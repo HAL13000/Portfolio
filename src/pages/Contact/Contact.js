@@ -50,7 +50,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <img src={pic002} alt="" />
+          <img src={pic002} alt="" loading="lazy" />
         </div>
       </div>
     </div>

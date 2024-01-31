@@ -32,7 +32,7 @@ const About = () => {
       <div className="container">
         <div className="header">
           <h1>About</h1>
-          <img className="aboutImg" src={me01} alt="" />
+          <img className="aboutImg" src={me01} alt="" loading="lazy" />
         </div>
         <div className="content">
           <span className="quote">Hello,I'm Haruka.</span>
