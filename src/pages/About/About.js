@@ -6,7 +6,7 @@ import Button from "../../components/Button/Button";
 import { useNavigate } from "react-router-dom";
 import CapitalizedBtn from "../../components/CapitalizedBtn/CapitalizedBtn";
 import Mask from "../../components/Mask/Mask";
-import me01 from "../../images/png/me01.png";
+import me001 from "../../images/jpg/me001.jpeg";
 import ThemeBtn from "../../components/ThemeColor/ThemeBtn";
 
 const About = () => {
@@ -32,7 +32,7 @@ const About = () => {
       <div className="container">
         <div className="header">
           <h1>About</h1>
-          <img className="aboutImg" src={me01} alt="" loading="lazy" />
+          <img className="aboutImg" src={me001} alt="" loading="lazy" />
         </div>
         <div className="content">
           <span className="quote">Hello,I'm Haruka.</span>
