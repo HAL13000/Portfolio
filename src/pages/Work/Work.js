@@ -40,7 +40,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <CapitalizedBtn className="work1" text="My Memo" />
+                <CapitalizedBtn className="work1" text="MyMemo" />
               </a>
               <p className="text">
                 Node.js/React.js/Javascript/Redux.js/express/mongoDB
