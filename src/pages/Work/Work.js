@@ -36,6 +36,18 @@ const Work = () => {
           <ul className="list">
             <li>
               <a
+                href="https://mymemo-client.vercel.app/login/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CapitalizedBtn className="work1" text="My Memo" />
+              </a>
+              <p className="text">
+                Node.js/React.js/Javascript/Redux.js/express/mongoDB
+              </p>
+            </li>
+            <li>
+              <a
                 href="https://chattie-kappa.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
