@@ -18,7 +18,7 @@ const About = () => {
 
   const handleMyCV = () => {
     window.open(
-      "https://drive.google.com/file/d/1ufIovVdpgDKXKk4HL7ZCim4qi2mJvbCR/view?usp=sharing",
+      "https://drive.google.com/file/d/1-gXT2SyM3i2WaSzqj15oVtu8bXYThrgr/view?usp=sharing",
       "_blank"
     );
   };
@@ -41,26 +41,30 @@ const About = () => {
             like to call myself “creative-worm”. I have a deep love for all
             kinds of creative activities and find joy in transforming ideas into
             tangible works. Whether it's cooking, painting, writing, crafting,
-            or coding, each serves as a precious tool of expression for me.
+            or engaging in design work, each serves as a precious tool of
+            expression for me.
           </p>
           <br />
           <br />
         </div>
         <div className="content">
-          <span className="quote">Why Coding?</span>
+          <span className="quote">Why Web Design?</span>
           <p className="description">
-            Coding is enjoyable because it's like putting a brush on a blank
-            canvas. We start by typing a single character into a blank file, and
-            the endless possibilities unfold. With each character I type, it
-            comes to life on the screen as a functioning website that people can
-            browse and use. The entire process fills me with excitement.
+            Web design is enjoyable because it's like crafting a visual story on
+            a blank canvas. Starting with a single idea, endless possibilities
+            unfold. Each design choice I make transforms into a functional and
+            aesthetically pleasing website or application that people can use.
+            This process fills me with satisfaction and excitement.
           </p>
           <br />
           <p className="description">
-            I believe there's nothing that can't be created through coding. I
-            want to dive into that realm of infinite possibilities, continuously
+            I believe there's nothing that can't be created through web design.
+            Everything we imagine can become a reality. Through our projects, we
+            bring joy, opportunities, and exciting experiences to users, all
+            within the palm of their hand. It feels like magic, doesn't it? I
+            want to dive into this realm of infinite possibilities, continuously
             learn, experiment, and share new experiences with both myself and
-            the users of the services through coding.
+            the users.
           </p>
           <br />
           <br />
@@ -72,11 +76,20 @@ const About = () => {
             <p className="log">
               Internship as a web designer at an IT company in Tokyo.
             </p>
+            <p className="log">HTML/CSS/PhotoShop/Illustrator</p>
+          </li>
+          <li>
+            <p className="date">2020-2021</p>
+            <p className="log">
+              Creating logos and creating design works for my clients as a
+              freelance.
+            </p>
+            <p className="log">PhotoShop/Illustrator</p>
           </li>
           <li>
             <p className="date">2021-</p>
             <p className="log">
-              Alongside another job, keep learning and creating by coding.
+              Alongside another job, keep learning and creating.
             </p>
           </li>
           <li>
@@ -84,7 +97,7 @@ const About = () => {
             <p className="log">
               Project: MeowChatting - Landing Page for Meow Chatting service.
             </p>
-            <p className="log">HTML/CSS</p>
+            <p className="log">HTML/CSS/PhotoShop/Illustrator</p>
           </li>
           <li>
             <p className="date">2023 Feb-Mar</p>
@@ -103,15 +116,7 @@ const About = () => {
             <p className="log">Project: Make this website as my portfolio</p>
             <p className="log">React.js/JavaScript/Sass/HTML</p>
           </li>
-          <li>
-            <p className="date">2023 Sep-</p>
-            <p className="log">
-              Project: Ongoing fullstack note application project
-            </p>
-            <p className="log">
-              Node.js/MongoDB/Express/React.js/JavaScript/Sass/Redux
-            </p>
-          </li>
+
           <br />
           <br />
         </div>

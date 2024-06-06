@@ -23,9 +23,8 @@ const Contact = () => {
             <br />
             <br />
             <p>
-              I'm here to help you creating the website or doing some design.
-              <br />
-              Let me know how can I help you via email or other platform below.
+              I'm here to help you with design. Let me know how I can help you
+              via email or other platform below.
               <br />
               <br />
             </p>
