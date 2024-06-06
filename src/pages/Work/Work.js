@@ -22,11 +22,14 @@ const Work = () => {
           <div className="header">
             <h1>Work</h1>
             <p className="description">
-              <span className="quote">Explore my coding creations!</span>
+              <span className="quote">
+                Explore my design works and web projects!
+              </span>
               <br />
               <br />
-              Here you'll find a collection of my projects, showcasing my
-              journey as a passionate beginner in the world of coding.
+              I love design and also I am capable of coding websites. Here you
+              will find a collection of my design works and website coding
+              projects, showcasing my journey as a passionate creator.
               <br />
               I'm constantly learning and growing, and I'm excited to share my
               work with you.
