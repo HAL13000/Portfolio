@@ -26,11 +26,11 @@ const Index = () => {
       <ThemeBtn />
       <div className="container">
         <header className="index">
-          <h1>Haruka Ishikawa</h1>
-          <h3>Front end developer</h3>
+          <h1>Haruka ISHIKAWA</h1>
+          <h3>Web Designer</h3>
           <p>
-            Passionate front-end developer seeking new opportunities to create
-            engaging user experiences and bring designs to life.
+            Passionate Web Designer seeking new opportunities to create engaging
+            user experiences and bring designs to life ✴︎
           </p>
         </header>
         <main className="content">
