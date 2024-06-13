@@ -11,6 +11,12 @@
   height: auto;
   box-sizing: border-box;
   width: 100hvw;
+  scroll-behavior: smooth;
+  a {
+    padding: 5px;
+    text-decoration: none;
+    color: var(--mainColor);
+  }
 
   .container {
     margin: 0;
@@ -19,27 +25,57 @@
     .header {
       position: relative;
       @include spaceBetween;
-      h1 {
-        padding: 20% 10px;
-        font-size: 32px;
-        @include sp {
-          font-size: 56px;
+      margin-bottom: 100px;
+      .header_content {
+        h1 {
+          font-size: 32px;
+          margin: 20px 0 0 0;
         }
-        @include tab {
-          font-size: 64px;
+        h2.quote {
+          font-size: 20px;
+          padding: 0;
+          margin: 0;
+        }
+        ul.header_content {
+          list-style: none;
+          padding: 20px 0 0 0;
+          li.header_menu {
+            padding-top: 5px;
+            &:before {
+              content: "✴︎";
+            }
+            &:hover {
+              font-weight: bolder;
+              padding: 8px 0;
+            }
+          }
         }
       }
       img {
         height: auto;
+        width: 80px;
         margin: 5%;
         display: flex;
         position: absolute;
         top: 0;
         right: 0;
-        width: 40%;
+        @include sp {
+          width: 100px;
+        }
+        @include tab {
+          width: 220px;
+        }
+        @include pc {
+          width: 250px;
+        }
       }
     }
     .content {
+      padding-top: 50px;
+      h2 {
+        margin: 0;
+        padding: 0;
+      }
       .quote {
         font-size: 18px;
         position: relative;
@@ -94,6 +130,18 @@
     }
     @include pc {
       padding: 0 20%;
+    }
+    .about_top {
+      margin: 30% 0;
+      text-align: center;
+      font-size: 10px;
+      // background-color: red;
+      &:hover {
+        font-weight: bold;
+      }
+      @include pc {
+        margin: 15% 0;
+      }
     }
   }
 }

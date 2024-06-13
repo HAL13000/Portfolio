@@ -29,13 +29,36 @@ const About = () => {
       <Frame />
       <HomeBtn />
       <ThemeBtn />
-      <div className="container">
+      <div className="container" id="top">
         <div className="header">
-          <h1>About</h1>
+          <div className="header_content">
+            <h1>About</h1>
+            <h2 className="quote">Hello,I'm Haruka.</h2>
+            <ul className="header_content">
+              <li className="header_menu">
+                <a href="#link1">"Creative Worm"</a>
+              </li>
+              <li className="header_menu">
+                <a href="#link2">Why Web Design?</a>
+              </li>
+              <li className="header_menu">
+                <a href="#link3">Experience</a>
+              </li>
+              <li className="header_menu">
+                <a href="#link4">Skills</a>
+              </li>
+              <li className="header_menu">
+                <a href="#link5">MyCV</a>
+              </li>
+              <li className="header_menu">
+                <a href="#link6">Contact Me</a>
+              </li>
+            </ul>
+          </div>
           <img className="aboutImg" src={me001} alt="" loading="lazy" />
         </div>
-        <div className="content">
-          <span className="quote">Hello,I'm Haruka.</span>
+        <div className="content" id="link1">
+          <h2 className="quote">"Creative-worm"</h2>
           <p className="description">
             As there is a word “book-worm” for those who like to read, I would
             like to call myself “creative-worm”. I have a deep love for all
@@ -47,8 +70,8 @@ const About = () => {
           <br />
           <br />
         </div>
-        <div className="content">
-          <span className="quote">Why Web Design?</span>
+        <div className="content" id="link2">
+          <h2 className="quote">Why Web Design?</h2>
           <p className="description">
             Web design is enjoyable because it's like crafting a visual story on
             a blank canvas. Starting with a single idea, endless possibilities
@@ -69,8 +92,8 @@ const About = () => {
           <br />
           <br />
         </div>
-        <div className="content">
-          <span className="quote">Experience</span>
+        <div className="content" id="link3">
+          <h2 className="quote">Experience</h2>
           <li>
             <p className="date">2018-2019</p>
             <p className="log">
@@ -120,34 +143,36 @@ const About = () => {
           <br />
           <br />
         </div>
-        <div className="content">
-          <span className="quote">Skills</span>
+        <div className="content" id="link4">
+          <h2 className="quote">Skills</h2>
           <br />
           <br />
           <div className="skills">
-            <div className="skill">React.js</div>
-            <div className="skill">Node.js</div>
-            <div className="skill">Sass</div>
-            <div className="skill">JavaScript</div>
-            <div className="skill">TypeScript</div>
             <div className="skill">HTML/CSS</div>
+            <div className="skill">JavaScript</div>
+            <div className="skill">Adobe PhotoShop/Illustrator</div>
+            <div className="skill">Figma</div>
+            <div className="skill">Procreate</div>
+            <div className="skill">ClipStudio</div>
+            <div className="skill">React.js</div>
+            <div className="skill">Sass</div>
+            <div className="skill">Node.js</div>
             <div className="skill">Github</div>
             <div className="skill">Firebase</div>
             <div className="skill">MongoDB</div>
-            <div className="skill">Adobe PhotoShop/Illustrator</div>
             <div className="skill">ChatGPT</div>
           </div>
           <br />
           <br />
         </div>
         <div className="content">
-          <Button text="My CV" onClick={handleMyCV} />
+          <Button id="link5" text="My CV" onClick={handleMyCV} />
           <br />
           <br />
-          <span className="quote">
+          <h2 className="quote">
             " Think of you as creating yourself. "
             <p className="name">-Taro Okamoto(1911-1996)</p>
-          </span>
+          </h2>
           <br />
           <br />
           <p className="description">
@@ -159,17 +184,24 @@ const About = () => {
           </p>
           <br />
           <br />
-          <CapitalizedBtn onClick={handleNavigateToContact} text="Contact Me" />
+          <CapitalizedBtn
+            id="link6"
+            onClick={handleNavigateToContact}
+            text="Contact Me"
+          />
           <br />
           <br />
         </div>
+        <p className="about_top">
+          <a href="#top">TOP</a>
+        </p>
       </div>
     </div>
   );
 };
 
 //   /* <div className="content">
-//   <span className="quote"></span>
+//   <h2 className="quote"></h2>
 //   <p className="description"></p>
 //   <br />
 //   <p className="description"></p>
