@@ -20,8 +20,8 @@ const Contact = () => {
           </div>
           <div className="description">
             <span className="header">Hello,</span>
-            <br />
-            <br />
+            {/* <br /> */}
+            {/* <br /> */}
             <p>
               I'm here to help you with design. Let me know how I can help you
               via email or other platform below.
