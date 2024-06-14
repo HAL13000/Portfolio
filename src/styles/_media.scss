@@ -1,6 +1,6 @@
-$pc: 1024px; // PC
-$tab: 680px; // tablet
-$sp: 480px; // smartPhone
+$pc: 1200px; // PC
+$tab: 700px; // tablet
+$sp: 370px; // smartPhone
 
 @mixin sp {
   @media (min-width: ($sp)) {

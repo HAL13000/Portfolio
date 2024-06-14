@@ -46,7 +46,7 @@ const Work = () => {
                 <CapitalizedBtn className="work1" text="MyMemo" />
               </a>
               <p className="text">
-                Node.js/React.js/Javascript/Redux.js/express/mongoDB
+                Node.js/ React.js/ Javascript/ Redux.js/ express/ mongoDB
               </p>
             </li>
             <li>
@@ -57,7 +57,7 @@ const Work = () => {
               >
                 <CapitalizedBtn className="work1" text="Chattie" />
               </a>
-              <p className="text">React.js/Firebase/JavaScript</p>
+              <p className="text">React.js/ Firebase/ JavaScript</p>
             </li>
             <li>
               <a
@@ -67,7 +67,7 @@ const Work = () => {
               >
                 <CapitalizedBtn className="work2" text="Travibes" />
               </a>
-              <p className="text">HTML/CSS/JavaScript</p>
+              <p className="text">HTML/ CSS/ JavaScript</p>
             </li>
             <li>
               <a
@@ -77,7 +77,7 @@ const Work = () => {
               >
                 <CapitalizedBtn className="work3" text="MeowChat" />
               </a>
-              <p className="text">HTML/CSS</p>
+              <p className="text">HTML/ CSS/ Procreate</p>
             </li>
             <li>
               <a
@@ -87,7 +87,7 @@ const Work = () => {
               >
                 <CapitalizedBtn className="work4" text="Portfolio" />
               </a>
-              <p className="text">"This website" React.js/JavaScript/Sass</p>
+              <p className="text">"This website" React.js/ JavaScript/ Sass</p>
             </li>
           </ul>
         </div>

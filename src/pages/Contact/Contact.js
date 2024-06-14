@@ -18,21 +18,18 @@ const Contact = () => {
           <div className="header">
             <h1>Contact</h1>
           </div>
+
           <div className="description">
-            <span className="header">Hello,</span>
-            {/* <br /> */}
-            {/* <br /> */}
+            <h2 className="header">Hello,</h2>
             <p>
               I'm here to help you with design. Let me know how I can help you
               via email or other platform below.
-              <br />
-              <br />
             </p>
             <div className="info">
-              <span className="quote">Email:</span>
+              <p className="quote">Email:</p>
               <p>harukaishikawa8000@gmail.com</p>
               <br />
-              <span className="quote">Social Medias:</span>
+              <p className="quote">Social Medias:</p>
               <a
                 href="https://www.linkedin.com/in/haruka-ishikawa-795685232/"
                 target="_blank"

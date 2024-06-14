@@ -12,6 +12,7 @@
       padding: 0;
       margin: 0;
       padding: 0 30px;
+
       @include pc {
         flex-direction: row;
         display: flex;
@@ -27,8 +28,10 @@
           font-size: 32px;
         }
         .description {
-          width: 350px;
-
+          width: 100%;
+          @include tab {
+            width: 350px;
+          }
           .quote {
             font-size: 18px;
           }
@@ -52,9 +55,19 @@
           p {
             padding: 0;
             margin: 0;
+            font-size: 12px;
+            @include tab {
+              font-size: 15px;
+            }
+            @include pc {
+              font-size: 18px;
+            }
           }
           button {
-            font-size: 48px;
+            font-size: 32px;
+            @include tab {
+              font-size: 48px;
+            }
             @include pc {
               font-size: 72px;
             }

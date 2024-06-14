@@ -8,7 +8,7 @@ const Frame = () => {
       <div className="frame_line frame_line_right"></div>
       <div className="frame_line frame_line_top"></div>
       <div className="frame_line frame_line_bottom">
-        <p className="copyright">&copy; 2023</p>
+        <p className="copyright">&copy; 2024</p>
       </div>
     </div>
   );
