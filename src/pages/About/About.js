@@ -99,7 +99,7 @@ const About = () => {
             <p className="log">
               Internship as a web designer at an IT company in Tokyo.
             </p>
-            <p className="log">HTML/CSS/PhotoShop/Illustrator</p>
+            <p className="log">HTML/ CSS/ PhotoShop/ Illustrator</p>
           </li>
           <li>
             <p className="date">2020-2021</p>
@@ -107,7 +107,7 @@ const About = () => {
               Creating logos and creating design works for my clients as a
               freelance.
             </p>
-            <p className="log">PhotoShop/Illustrator</p>
+            <p className="log">PhotoShop/ Illustrator/ Clipstudio/ Procreate</p>
           </li>
           <li>
             <p className="date">2021-</p>
@@ -120,24 +120,24 @@ const About = () => {
             <p className="log">
               Project: MeowChatting - Landing Page for Meow Chatting service.
             </p>
-            <p className="log">HTML/CSS/PhotoShop/Illustrator</p>
+            <p className="log">HTML/ CSS/ PhotoShop/ Illustrator</p>
           </li>
           <li>
             <p className="date">2023 Feb-Mar</p>
             <p className="log">
               Project: Travibes - A website for rental van/camping car service.
             </p>
-            <p className="log">HTML/CSS/JavaScript</p>
+            <p className="log">HTML/ CSS/ JavaScript</p>
           </li>
           <li>
             <p className="date">2023 Apr-Jun</p>
             <p className="log">Project: Chattie - Chatting Web Application</p>
-            <p className="log">React.js/Firebase/HTML/CSS</p>
+            <p className="log">React.js/ Firebase/ HTML/ CSS</p>
           </li>
           <li>
             <p className="date">2023 Jul-</p>
             <p className="log">Project: Make this website as my portfolio</p>
-            <p className="log">React.js/JavaScript/Sass/HTML</p>
+            <p className="log">React.js/ JavaScript /Sass/ HTML</p>
           </li>
 
           <br />
@@ -199,14 +199,5 @@ const About = () => {
     </div>
   );
 };
-
-//   /* <div className="content">
-//   <h2 className="quote"></h2>
-//   <p className="description"></p>
-//   <br />
-//   <p className="description"></p>
-//   <br />
-//   <br />
-// </div> */
 
 export default About;

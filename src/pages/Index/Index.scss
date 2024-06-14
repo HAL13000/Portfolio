@@ -50,7 +50,10 @@
       p {
         padding: 10px 0;
         margin: 0;
-        width: 350px;
+        width: 100%;
+        @include tab {
+          max-width: 350px;
+        }
       }
     }
     main {
@@ -80,7 +83,6 @@
             margin-right: 60px;
           }
         }
-
         li {
           padding: 0;
           margin: 0;

@@ -1,11 +1,12 @@
 @import "../../styles/variables";
 @import "../../styles/themes";
+@import "../../styles/media";
 
 .frame {
   position: fixed;
   pointer-events: none;
-  height: calc(100dvh - 60px);
-  width: calc(100dvw - 60px);
+  height: calc(100vh - 60px);
+  width: calc(100vw - 60px);
   z-index: 4;
 }
 .frame_line {

@@ -57,9 +57,6 @@ const Index = () => {
               />
             </li>
           </ul>
-          {/* <div className="indexImage">
-          <img src={pic001} alt="" />
-        </div> */}
         </main>
       </div>
     </div>

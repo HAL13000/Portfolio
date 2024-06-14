@@ -10,31 +10,33 @@
   margin: 0;
   height: auto;
   box-sizing: border-box;
-  width: 100hvw;
+  width: 100%;
   scroll-behavior: smooth;
   a {
     padding: 5px;
     text-decoration: none;
     color: var(--mainColor);
   }
-
   .container {
     margin: 0;
     padding: 0 5%;
-
     .header {
       position: relative;
       @include spaceBetween;
       margin-bottom: 100px;
+      margin-top: 30px;
       .header_content {
         h1 {
           font-size: 32px;
           margin: 20px 0 0 0;
         }
         h2.quote {
-          font-size: 20px;
+          font-size: 16px;
           padding: 0;
           margin: 0;
+          @include tab {
+            font-size: 20px;
+          }
         }
         ul.header_content {
           list-style: none;
@@ -52,16 +54,14 @@
         }
       }
       img {
+        padding: 5px;
         height: auto;
         width: 80px;
-        margin: 5%;
+        margin: 20px;
         display: flex;
         position: absolute;
         top: 0;
         right: 0;
-        @include sp {
-          width: 100px;
-        }
         @include tab {
           width: 220px;
         }
