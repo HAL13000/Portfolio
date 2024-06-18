@@ -39,6 +39,26 @@ const Work = () => {
           <ul className="list">
             <li>
               <a
+                href="https://travibes.vercel.app/?vercelToolbarCode=cOqfYNrM2-W4QTB"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CapitalizedBtn className="work2" text="Travibes" />
+              </a>
+              <p className="text">HTML/ CSS/ JavaScript</p>
+            </li>
+            <li>
+              <a
+                href="https://meow-chatting.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CapitalizedBtn className="work3" text="MeowChat" />
+              </a>
+              <p className="text">HTML/ CSS/ Procreate</p>
+            </li>
+            <li>
+              <a
                 href="https://mymemo-client.vercel.app/login/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -58,26 +78,6 @@ const Work = () => {
                 <CapitalizedBtn className="work1" text="Chattie" />
               </a>
               <p className="text">React.js/ Firebase/ JavaScript</p>
-            </li>
-            <li>
-              <a
-                href="https://travibes.vercel.app/?vercelToolbarCode=cOqfYNrM2-W4QTB"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <CapitalizedBtn className="work2" text="Travibes" />
-              </a>
-              <p className="text">HTML/ CSS/ JavaScript</p>
-            </li>
-            <li>
-              <a
-                href="https://meow-chatting.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <CapitalizedBtn className="work3" text="MeowChat" />
-              </a>
-              <p className="text">HTML/ CSS/ Procreate</p>
             </li>
             <li>
               <a
