@@ -18,7 +18,7 @@ const About = () => {
 
   const handleMyCV = () => {
     window.open(
-      "https://drive.google.com/file/d/1-gXT2SyM3i2WaSzqj15oVtu8bXYThrgr/view?usp=sharing",
+      "https://drive.google.com/file/d/1Nr7z9WRi6AhwCCcZEra2ksUaqeU9e_3T/view?usp=sharing",
       "_blank"
     );
   };
